@@ -21,14 +21,15 @@ Navigation: Stack navigation to PlayerScreen, Albums, Artists
 Responsive: SafeAreaView, keyboard handling, accessible touch targets
 
 🛠️ Tech Stack
-text
+
 Frontend: React Native 0.74, Expo 51, TypeScript
 UI: Ionicons, FlatList virtualization, Modal animations
 Navigation: @react-navigation/native, @react-navigation/bottom-tabs
 Data: DummySongs.ts (20+ songs/artists/albums)
 State: React hooks (useState for favorites/blacklist)
+
 🚀 Quick Start
-bash
+
 # Clone repo
 git clone <your-repo-url>
 cd mume-music-app
@@ -41,8 +42,9 @@ npx expo start --clear
 
 # Development build
 eas build --profile development --platform all
+
 📁 Project Structure
-text
+
 src/
 ├── screens/tabs/
 │   ├── SongsScreen.tsx        # Song list + 10-action menu
@@ -55,9 +57,9 @@ src/
 │   └── SongCard.tsx           # Reusable song row
 └── navigation/
     └── BottomTabs.tsx         # Tab navigator
+
 🎯 Key Features Implemented
 Interactive Song Menu (10 Actions)
-text
 ✅ Play Next → PlayerScreen navigation
 ✅ Add to Playing Queue → Alert feedback
 ✅ Add to Playlist → Alert feedback  
@@ -68,21 +70,22 @@ text
 ✅ Share → Share sheet
 ✅ Delete from Device → Confirmation dialog
 ✅ Favorite heart toggle → Persistent state
+
 Advanced UI Challenges Solved
-text
 ✅ Modal z-index overlaps (presentationStyle="overFullScreen")
 ✅ SafeAreaView + statusBarTranslucent
 ✅ FlatList virtualization (560+ songs)
 ✅ Bottom sheet animations (slide/fade)
 ✅ Dark theme hardcoded colors
 ✅ hitSlop for accessible touch targets
+
 Production Optimizations
-text
 ✅ TypeScript interfaces (Song, Artist, Album)
 ✅ Error-free Image loading (optional chaining)
 ✅ KeyboardShouldPersistTaps handling
 ✅ ActiveOpacity + haptic feedback
 ✅ Shadow/elevation cross-platform
+
 🔮 Future Enhancements
 Real audio playback (Expo AV)
 
@@ -99,7 +102,6 @@ Real API integration
 📄 License
 MIT License
 
-text
 Built with ❤️ for React Native developers
 👨‍💻 Author: Jagrati Singh
 📧 Contact: [jagratisingh1212@gmail.com] | | [https://github.com/singhjagrati/Music-Player-]
