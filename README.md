@@ -28,17 +28,32 @@ Navigation: @react-navigation/native, @react-navigation/bottom-tabs
 Data: DummySongs.ts (20+ songs/artists/albums)
 State: React hooks (useState for favorites/blacklist)
 
-🚀 Quick Start
+🚀 Setup Instructions
+> Prerequisites
+ Node.js 18+
+ Expo CLI: npm install -g @expo/cli
+ Expo Go app (iOS/Android)
 
-# Clone repo
-git clone <your-repo-url>
-cd mume-music-app
-
+> Installation
+# Clone repository
+git clone https://github.com/singhjagrati/Music-Player-
+cd Music-Player-
 # Install dependencies
+npm install
+# or
+yarn install
+# or
 npx expo install
 
-# Run on iOS/Android
+> Run Development Server
+# Clear cache and start
 npx expo start --clear
+
+# iOS Simulator
+npx expo start --ios
+
+# Android Emulator
+npx expo start --android
 
 # Development build
 eas build --profile development --platform all
@@ -106,3 +121,5 @@ Built with ❤️ for React Native developers
 👨‍💻 Author: Jagrati Singh
 📧 Contact: [jagratisingh1212@gmail.com] | | [https://github.com/singhjagrati/Music-Player-]
 DEMO VIDEO: [https://drive.google.com/file/d/1mi4-e5jlfNq5N9q8pY1kJOJV9ODelYpi/view?usp=drive_link]
+
+
