@@ -103,3 +103,4 @@ text
 Built with ❤️ for React Native developers
 👨‍💻 Author: Jagrati Singh
 📧 Contact: [jagratisingh1212@gmail.com] | | [https://github.com/singhjagrati/Music-Player-]
+DEMO VIDEO: [https://drive.google.com/file/d/1mi4-e5jlfNq5N9q8pY1kJOJV9ODelYpi/view?usp=drive_link]
