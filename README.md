@@ -102,4 +102,4 @@ MIT License
 text
 Built with ❤️ for React Native developers
 👨‍💻 Author: Jagrati Singh
-📧 Contact: [jagratisingh1212@gmail.com] | | [GitHub]
+📧 Contact: [jagratisingh1212@gmail.com] | | [https://github.com/singhjagrati/Music-Player-]
